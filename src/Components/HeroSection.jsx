@@ -17,7 +17,7 @@ const HeroSection = () => {
 
             {/* Image */}
             <div className=" flex items-center justify-center mb-10 md:mb-0 mx-auto md:mx-0 rounded-full border overflow-hidden">
-              <img src={HeroImg} alt="" className=' object-cover h-96 w-96' />
+              <img src={HeroImg} alt="" className=' object-cover h-72 w-72 md:h-96 md:w-96' />
             </div>
         </div>
     </div>
