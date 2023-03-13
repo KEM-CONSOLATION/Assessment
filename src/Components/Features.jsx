@@ -8,7 +8,7 @@ const Features = () => {
             <p>Not Sure where to Start? <span><a href="#" className=" text-yellow-500">Guide Me</a></span> is the perfect place to begin.</p>
             
             {/* Card Section */}
-            <div className="grid md:grid-cols-3 gap-10 my-10 md:my-20">
+            <div className="grid md:grid-cols-3 gap-10 my-10 md:my-8">
 
                 {/* Card 1 */}
                 <div className=" bg-slate-100 py-8 px-5 rounded-2xl shadow-md relative">
