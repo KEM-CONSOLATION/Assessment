@@ -1,8 +1,8 @@
 import {AppsFillIcon, GooglePlayFillIcon} from '../assets/icons'
 const Download = () => {
   return (
-    <div>
-        <div className=" max-w-6xl mx-auto py-10">
+    <div className=' bg-yellow-100'>
+        <div className=" max-w-6xl mx-auto py-10 ">
             <div className=" md:w-3/6 mx-10">
                 <h1 className=' text-3xl font-medium py-3'>Download App for Exciting Deals</h1>
                 <p className=' font-normal text-slate-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. In vitae error ad eligendi officia assumenda est nam aspernatur tempore tenetur.</p>

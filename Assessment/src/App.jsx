@@ -7,6 +7,7 @@ import Author from './Components/Author';
 import Testimonials from './Components/Testimonials';
 import Download from './Components/Download';
 import Team from './Components/Team';
+import Newsletter from './Components/Newsletter';
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Testimonials/>
       <Download />
       <Team />
+      <Newsletter/>
     </>
   )
 }

@@ -17,6 +17,7 @@ const Testimonials = () => {
                         <p className=' font-extralight text-slate-500 '>A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. </p>
                     </div>
                     <p className=' text-yellow-500 font-medium'>Jane Doe</p>
+                    
                     <div class="w-16 overflow-hidden inline-block absolute bottom-[-43px]">
                         <div class=" h-11 w-11 bg-white -rotate-45 transform origin-top-left"></div>
                     </div>
