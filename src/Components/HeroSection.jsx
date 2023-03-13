@@ -1,9 +1,9 @@
 const HeroSection = () => {
   return (
-    <div className=" max-w-6xl mx-auto py-5 md:mx-20">
+    <div className=" max-w-6xl mx-auto py-5 items-center place-items-center md:mx-20">
         <div className=" grid grid-cols-1 items-center place-items-center my-5 mt-10 md:flex md:items-start md:justify-between">
             <div className=" order-2 md:-order-none mt-10 w-5/6 md:w-3/6">
-                <h1 className=" text-4xl tracking-widest"><span className=" text-yellow-500 font-medium">Writers</span>,Readers and <span className=" text-slate-300 font-extralight">Reviewers</span></h1>
+                <h1 className=" text-3xl md:text-4xl tracking-widest"><span className=" text-yellow-500 font-medium">Writers</span>,Readers and <span className=" text-slate-300 font-extralight">Reviewers</span></h1>
                 <p className=" tracking-widest text-slate-300 text-sm mt-10">A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba. The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava, eba, ewa and everything.</p>
 
                 <div className=" mt-16 grid md:flex gap-5 md:gap-0 font-semibold text-center w-72 md:w-full">

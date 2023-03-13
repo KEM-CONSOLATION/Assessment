@@ -4,7 +4,7 @@ const Features = () => {
   return (
     <div className=" max-w-6xl mx-auto">
         <div className=" grid mx-5 md:mx-0">
-            <h1 className=" font-bold text-yellow-500 text-4xl mb-2">Features</h1>
+            <h1 className=" font-medium md:font-bold text-yellow-500 text-4xl mb-2">Features</h1>
             <p>Not Sure where to Start? <span><a href="#" className=" text-yellow-500">Guide Me</a></span> is the perfect place to begin.</p>
             <div className="grid md:grid-cols-3 gap-10 my-10 md:my-20">
                 <div className=" bg-slate-100 py-8 px-5 rounded-2xl shadow-md relative">

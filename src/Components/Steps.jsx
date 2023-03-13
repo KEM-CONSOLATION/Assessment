@@ -4,7 +4,7 @@ const Steps = () => {
   return (
     <div className=" max-w-6xl mx-auto">
         <div className=" grid mx-5 md:mx-0">
-            <h1 className=" font-bold text-yellow-500 text-4xl mb-2">Steps</h1>
+            <h1 className="font-medium md:font-bold text-yellow-500 text-4xl mb-2">Steps</h1>
             <div className="grid md:grid-cols-2 gap-10 my-10">
                 <div className=" bg-white py-16 px-5 rounded-tl-3xl rounded-br-3xl shadow-2xl shadow-slate-400">
                     <p className=" font-semibold mb-5 ">Not written yet?</p>
