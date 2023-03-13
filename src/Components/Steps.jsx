@@ -5,6 +5,8 @@ const Steps = () => {
     <div className=" max-w-6xl mx-auto">
         <div className=" grid mx-5 md:mx-0">
             <h1 className="font-medium md:font-bold text-yellow-500 text-4xl mb-2">Steps</h1>
+
+            {/* Section1 */}
             <div className="grid md:grid-cols-2 gap-10 my-10">
                 <div className=" bg-white py-16 px-5 rounded-tl-3xl rounded-br-3xl shadow-2xl shadow-slate-400">
                     <p className=" font-semibold mb-5 ">Not written yet?</p>
@@ -17,7 +19,7 @@ const Steps = () => {
                 </div>
             </div>
             
-
+            {/* Section2 */}
             <div className="grid md:grid-cols-2 gap-10 my-5">
                 <div className=" py-5  px-5 order-2">
                     <p className=" font-semibold mb-5">Find the perfect partner for your project</p>
@@ -30,7 +32,7 @@ const Steps = () => {
                 </div>
             </div>
 
-
+            {/* Section3 */}
             <div className="grid md:grid-cols-2 gap-10 my-5">
                 <div className=" bg-white py-16 px-5 rounded-tl-3xl rounded-br-3xl shadow-2xl shadow-slate-400">
                     <p className=" font-semibold mb-5 ">Not written yet?</p>
@@ -43,7 +45,7 @@ const Steps = () => {
                 </div>
             </div>
 
-
+            {/* Section4 */}
             <div className="grid md:grid-cols-2 gap-10 my-5">
                 <div className=" py-5  px-5 order-2">
                     <p className=" font-semibold mb-5">Find the perfect partner for your project</p>

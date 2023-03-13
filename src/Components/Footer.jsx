@@ -7,6 +7,8 @@ const Footer = () => {
             <footer className=' grid place-items-start mx-5 md:flex md:items-start md:justify-between'>
                 <div className=" text-white grid items-center md:mt-28 ">
                     <h1 className=' font-bold text-3xl text-yellow-600'><a href="#">Bookry</a></h1>
+                    
+                    {/* Social Media Links */}
                     <div className=" flex items-center justify-between  gap-3 mt-3">
                         <a href="#" className=' hover:text-blue-500'><FacebookBoxFillIcon /></a>
                         <a href="#" className=' hover:text-pink-500'><InstagramLineIcon /></a>
@@ -37,6 +39,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
+                    {/* Contact Address */}
                 <div className=" text-white">
                     <h1 className=' font-bold tracking-widest mt-5 md:mt-0 text-yellow-500'>CONTACT US:</h1>
                     <ul className=' mt-2 md:mt-5 font-extralight'>

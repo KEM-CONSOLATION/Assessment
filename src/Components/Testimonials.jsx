@@ -5,12 +5,16 @@ const Testimonials = () => {
 
     <div className=" bg-slate-50">
         <div className=" max-w-6xl mx-auto border-t md:border-none py-5 md:pt-0 md:mt-20">
+            {/* Header */}
             <div className=" mx-2 md:mx-auto text-center md:w-3/4  py-8">
                 <h1 className=" font-bold text-yellow-500 text-3xl md:text-4xl mb-2">Testimonials</h1>
                 <p className=' text-sm md:text-lg text-slate-900'>Hear how we are helping businesses grow by taking away the hassels  </p>
             </div>
 
-            <div className=" grid gap-10 sm:grid sm:gap-15 sm:mx-5 sm:grid-cols-2 md:flex md:justify-between items-center place-items-center my-10 mx-5">    
+            {/* Card Section */}
+            <div className=" grid gap-10 sm:grid sm:gap-15 sm:mx-5 sm:grid-cols-2 md:flex md:justify-between items-center place-items-center my-10 mx-5">   
+
+             {/*Card1  */}
                 <div className=" w-full md:w-3/4 shadow-lg  px-5 py-5 bg-white relative">
                     <div className=" flex">
                         <DoubleQuotesLIcon  className=' text-yellow-500' size={96}/>
@@ -23,6 +27,7 @@ const Testimonials = () => {
                     </div>
                 </div>
                 
+             {/*Card2  */}
                 <div className=" w-full md:w-3/4 shadow-lg  px-5 py-5 bg-white relative">
                     <div className=" flex">
                         <DoubleQuotesLIcon  className=' text-yellow-500' size={96}/>
@@ -34,6 +39,7 @@ const Testimonials = () => {
                     </div>
                 </div>
 
+             {/*Card3  */} 
                 <div className=" w-full md:w-3/4 shadow-lg  px-5 py-5 bg-white relative">
                     <div className=" flex">
                         <DoubleQuotesLIcon  className=' text-yellow-500' size={96}/>

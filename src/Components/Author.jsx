@@ -1,13 +1,15 @@
-// import AuthorsImage from '../assets/AuthorsImage.jpeg'
 import BookCover from '../assets/BookCover.jpeg'
 
 const Author = () => {
   return (
     <div className=" max-w-6xl mx-auto border-t md:border-none pt-5 md:pt-0 md:mt-20">
+      {/* Header */}
         <div className="  mx-2 md:mx-auto text-center md:w-2/4">
             <h1 className=" font-semibold md:font-bold text-yellow-500 text-3xl md:text-4xl mb-2">Our Author</h1>
             <p className=' text-sm md:text-xl text-slate-700'>A creative hub for over 150,000 authors <br /> We can help any author with their literary endeavor.</p>
         </div>
+
+        {/* card section */}
 
         <div className=" grid gap-5 sm:grid sm:gap-2 sm:mx-5 sm:grid-cols-2 md:flex md:justify-between items-center place-items-center my-10">
           <div className=" w-80 md:w-96 shadow-lg  px-5 py-5 bg-white">

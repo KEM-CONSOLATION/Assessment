@@ -1,6 +1,5 @@
 import HeroImg from '../assets/HeroBg1.jpeg'
 
-
 const HeroSection = () => {
   return (
     <div className=" max-w-6xl mx-auto py-5 items-center place-items-center md:mx-20">
@@ -9,12 +8,14 @@ const HeroSection = () => {
                 <h1 className=" text-3xl md:text-4xl tracking-widest"><span className=" text-yellow-500 font-medium">Writers</span>,Readers and <span className=" text-slate-300 font-extralight">Reviewers</span></h1>
                 <p className=" tracking-widest text-slate-300 text-sm mt-10">A town hall different from bala blu, blue blu bulaba. broom broom broom brooooooooom. Bala blu blue blu bulaba. The farmers will make more money. Your lunch will not be imported, cassava garri ewa and ehhh ehhhhnn. The farmer will make money, the dinner would be cassava, eba, ewa and everything.</p>
 
+                {/* Button Links */}
                 <div className=" mt-16 grid md:flex gap-5 md:gap-0 font-semibold text-center w-72 md:w-full">
                     <a href="#" className=" px-10 bg-black rounded-md py-3 text-white md:mr-20">Let's Get Started</a>
                     <a href="#" className="  px-10  bg-blue-50 border-black border-2 rounded-md py-3 text-black">Guide Me</a>
                 </div>
             </div>
 
+            {/* Image */}
             <div className=" flex items-center justify-center mb-10 md:mb-0 mx-auto md:mx-0 rounded-full border overflow-hidden">
               <img src={HeroImg} alt="" className=' object-cover h-96 w-96' />
             </div>
