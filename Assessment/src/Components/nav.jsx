@@ -8,30 +8,30 @@ const nav = () => {
 
   return (
     <div className=" max-w-6xl mx-auto py-5">
-        <div className=' flex justify-between items-center'>
+        <div className=' relative grid grid-flow-row md:flex md:justify-between gap-10 items-center mx-5'>
             <div className="">
-                <p className=' font-bold text-2xl'>BOOKRY</p>
+                <p className=' font-bold text-2xl text-yellow-500'>BOOKRY</p>
             </div>
 
 
             {open === true 
-          ? <div className=" absolute top-10 right-4 md:hidden cursor-pointer" onClick={() => setopen(false)}>
+          ? <div className=" absolute top-0 right-4 md:hidden cursor-pointer" onClick={() => setopen(false)}>
             <Menu1LineIcon size={35} />
           </div>
 
-          :<div className=" absolute top-10 right-4 md:hidden cursor-pointer" onClick={() => setopen(true)}>
-            <CloseLineIcon size={45} />
+          :<div className=" absolute top-0 right-4 md:hidden cursor-pointer" onClick={() => setopen(true)}>
+            <CloseLineIcon size={43} />
           </div>
 
             }
 
-            <div className="">
-                <ul className=' flex'>
-                    <li className=' px-5 py-3 mx-2 active:text-yellow-500'><a href="#">Home</a></li>
-                    <li className=' px-5 py-3 mx-2 active:text-yellow-500'><a href="#">About Us</a></li>
-                    <li className=' px-5 py-3 mx-2 active:text-yellow-500'><a href="#">Publish</a></li>
-                    <li className=' px-5 py-3 mx-2 active:text-yellow-500'><a href="#">Get Started</a></li>
-                    <li className=' px-8 py-3 mx-2 active:text-yellow-500 bg-black text-white rounded-lg font-semibold'><a href="#">Read</a></li>
+            <div className={`md:flex ${!open ? 'block':'hidden'}`}>
+                <ul className='md:flex gap-10 md:gap-0  cursor-pointer font-medium'>
+                    <li className=' px-5 py-3 mx-2 active:text-yellow-500 hover:bg-yellow-500 hover:text-white hover:active:text-white rounded-lg'><a href="#">Home</a></li>
+                    <li className=' px-5 py-3 mx-2 active:text-yellow-500 hover:bg-yellow-500 hover:text-white hover:active:text-white rounded-lg'><a href="#">About Us</a></li>
+                    <li className=' px-5 py-3 mx-2 active:text-yellow-500 hover:bg-yellow-500 hover:text-white hover:active:text-white rounded-lg'><a href="#">Publish</a></li>
+                    <li className=' px-5 py-3 mx-2 mb-5 md:mb-0 active:text-yellow-500 hover:bg-yellow-500 hover:text-white hover:active:text-white rounded-lg'><a href="#">Get Started</a></li>
+                    <li className=' px-8 py-3 mx-2 active:text-yellow-500 bg-black text-white rounded-lg font-medium shadow-2xl inline-grid'><a href="#">Read</a></li>
                 </ul>
             </div>
         </div>
