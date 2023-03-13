@@ -19,31 +19,31 @@ const Footer = () => {
                 <div className=" text-white">
                     <h1 className=' font-bold tracking-widest mt-5 md:mt-0 text-yellow-500'>MARKET PLACE:</h1>
                     <ul className=' mt-2 md:mt-5 font-extralight flex gap-2 md:block'>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Authors</a></li>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Publisher</a></li>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Hire a Freelance</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Authors</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Publisher</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Hire a Freelance</a></li>
                     </ul>
                 </div>
 
                 <div className=" text-white">
                     <h1 className=' font-bold tracking-widest mt-5 md:mt-0 text-yellow-500'>LEARN:</h1>
                     <ul className=' mt-2 md:mt-5 font-extralight flex gap-2 md:block'>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Blog</a></li>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Learning</a></li>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Freelance</a></li>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">About</a></li>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Team</a></li>
-                        <li className=' underline md:py-2 hover:text-yellow-500'><a href="#">Press</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Blog</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Learning</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Freelance</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">About</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Team</a></li>
+                        <li className=' underline md:py-2 hover:text-yellow-500 text-xs md:text-sm'><a href="#">Press</a></li>
                     </ul>
                 </div>
 
                 <div className=" text-white">
                     <h1 className=' font-bold tracking-widest mt-5 md:mt-0 text-yellow-500'>CONTACT US:</h1>
                     <ul className=' mt-2 md:mt-5 font-extralight'>
-                        <li className='py-1 md:py-2'><a href="#">No 5, Wuse 2, Zone 4 Abuja</a></li>
-                        <li className='py-1 md:py-2'><a href="#">+234 903 665 0603</a></li>
-                        <li className='py-1 md:py-2'><a href="#">bookry@domain.com</a></li>
-                        <li className='py-1 md:py-2'><a href="#">Monday - Sunday 9:00 - 18:00</a></li>
+                        <li className='py-1 md:py-2 text-xs md:text-sm'><a href="#">No 5, Wuse 2, Zone 4 Abuja</a></li>
+                        <li className='py-1 md:py-2 text-xs md:text-sm'><a href="#">+234 903 665 0603</a></li>
+                        <li className='py-1 md:py-2 text-xs md:text-sm'><a href="#">bookry@domain.com</a></li>
+                        <li className='py-1 md:py-2 text-xs md:text-sm'><a href="#">Monday - Sunday 9:00 - 18:00</a></li>
                     </ul>
                 </div>
             </footer>

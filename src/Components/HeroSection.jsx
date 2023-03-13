@@ -1,3 +1,6 @@
+import HeroImg from '../assets/HeroBg1.jpeg'
+
+
 const HeroSection = () => {
   return (
     <div className=" max-w-6xl mx-auto py-5 items-center place-items-center md:mx-20">
@@ -12,8 +15,8 @@ const HeroSection = () => {
                 </div>
             </div>
 
-            <div className=" flex flex-col items-center justify-center mb-10 md:mb-0 h-72 w-72 mx-auto md:mx-0 md:h-96 md:w-96 rounded-full bg-yellow-600 relative">
-              
+            <div className=" flex items-center justify-center mb-10 md:mb-0 mx-auto md:mx-0 rounded-full border overflow-hidden">
+              <img src={HeroImg} alt="" className=' object-cover h-96 w-96' />
             </div>
         </div>
     </div>
