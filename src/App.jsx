@@ -8,6 +8,7 @@ import Testimonials from './Components/Testimonials';
 import Download from './Components/Download';
 import Team from './Components/Team';
 import Newsletter from './Components/Newsletter';
+import Footer from './Components/Footer';
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <Download />
       <Team />
       <Newsletter/>
+      <Footer/>
     </>
   )
 }

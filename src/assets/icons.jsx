@@ -5,6 +5,10 @@ import DoubleQuotesLIcon from 'remixicon-react/DoubleQuotesLIcon';
 import GooglePlayFillIcon from 'remixicon-react/GooglePlayFillIcon';
 import AppsFillIcon from 'remixicon-react/AppStoreFillIcon';
 import ProfileFillIcon from 'remixicon-react/User3FillIcon';
+import FacebookBoxFillIcon from 'remixicon-react/FacebookBoxFillIcon';
+import InstagramLineIcon from 'remixicon-react/InstagramLineIcon';
+import TwitterFillIcon from 'remixicon-react/TwitterFillIcon';
+import LinkedinFillIcon from 'remixicon-react/LinkedinFillIcon';
 
 export{
     Menu1LineIcon,
@@ -13,5 +17,9 @@ export{
     DoubleQuotesLIcon,
     AppsFillIcon,
     GooglePlayFillIcon,
-    ProfileFillIcon
+    ProfileFillIcon,
+    FacebookBoxFillIcon,
+    InstagramLineIcon,
+    TwitterFillIcon,
+    LinkedinFillIcon
 }

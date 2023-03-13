@@ -2,7 +2,7 @@ import {ProfileFillIcon} from '../assets/icons'
 const Team = () => {
   return (
     <div>
-        <div className=" max-w-6xl mx-auto">
+        <div className=" max-w-6xl mx-auto my-10">
             <div className=" ">
                 <h1 className='text-center text-yellow-500 text-4xl font-semibold tracking-widest'>Our Team</h1>
                 <p className='text-center text-black font-medium'>Meet Our Team</p>
