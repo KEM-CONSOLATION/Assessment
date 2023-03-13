@@ -5,6 +5,7 @@ import Features from './Components/Features'
 import Steps from './Components/Steps';
 import Author from './Components/Author';
 import Testimonials from './Components/Testimonials';
+import Download from './Components/Download';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Steps />
       <Author/>
       <Testimonials/>
+      <Download />
     </>
   )
 }
