@@ -7,7 +7,7 @@ const Author = () => {
             <p className=' text-xl text-slate-700'>A creative hub for over 150,000 authors <br /> We can help any author with their literary endeavor.</p>
         </div>
 
-        <div className=" grid gap-5 sm:grid sm:gap-2 sm:mx-5 sm:grid-cols-2 md:flex md:justify-between items-center place-items-center mt-10">
+        <div className=" grid gap-5 sm:grid sm:gap-2 sm:mx-5 sm:grid-cols-2 md:flex md:justify-between items-center place-items-center my-10">
           <div className=" w-80 md:w-96 shadow-lg  px-5 py-5 bg-white">
             <img src={AuthorsImage} alt="" srcset="" className=' py-2' />
             <p className=' text-yellow-500 font-medium'>Jane Doe</p>

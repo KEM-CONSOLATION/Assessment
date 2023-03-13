@@ -4,6 +4,7 @@ import HeroSection from './Components/HeroSection';
 import Features from './Components/Features'
 import Steps from './Components/Steps';
 import Author from './Components/Author';
+import Testimonials from './Components/Testimonials';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Features />
       <Steps />
       <Author/>
+      <Testimonials/>
     </>
   )
 }
